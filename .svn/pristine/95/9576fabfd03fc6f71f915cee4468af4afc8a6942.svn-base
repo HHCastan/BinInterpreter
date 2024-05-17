@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensajes>
+	<!-- Mensaje que se cargara al no coincidir con ningun otro -->
+	<defecto value="36"/>
+	<!-- El mensaje es el que aparecera en BASIC, los patrones han de hacerse si se
+        domino expresiones regulares, o valores uno por uno, si se quiere hacer eso -->
+	<mensaje value="37">
+		<!-- COMPENSAR -->
+		<patrones>
+			<patron>^(603959|629986|636262|636612|636476)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="38">
+		<!-- CODENSA -->
+		<patrones>
+			<patron>^(870055|590712)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="31">
+		<!-- MAESTRO -->
+		<patrones>
+			<patron>^50\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="31">
+		<!-- MAESTRO -->
+		<patrones>
+			<patron>^(5[6-9]|6[0-9])\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="32">
+		<!-- V.ELECTRON -->
+		<valores>
+			<valor>417500</valor>
+		</valores>
+	</mensaje>
+	<mensaje value="31">
+		<!-- MASTERCARD DEBITO BANCOLOMBIA-->
+		<patrones>
+			<patron>53069[0|1|2|5]</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="32">
+		<!-- V.ELECTRON-->
+		<patrones>
+			<patron>^(4026|4405|4508|4844|4913|4917)\d{2}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="32">
+		<!-- V.ELECTRON-->
+		<patrones>
+			<patron>40055[3|8]</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="32">
+		<!-- VISA DEBIT Citibank-->
+		<patrones>
+			<patron>49886[0|2]</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="49">
+		<!-- CODENSA MASTERCARD -->
+		<patrones>
+			<patron>529448</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="41">
+		<!-- MASTERCARD -->
+		<patrones>
+			<patron>^5[1-5]\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="42">
+		<!-- VISA -->
+		<patrones>
+			<patron>^4[0-9]\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="43">
+		<!-- DINNERS -->
+		<patrones>
+			<patron>^30([0-4]|9)\d{3}</patron>
+		</patrones>
+		<valores>
+			<valor>305000</valor>
+		</valores>
+	</mensaje>
+	<mensaje value="43">
+		<!--DINNERS -->
+		<patrones>
+			<patron>^(36|38|39)\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="44">
+		<!-- AMEX -->
+		<patrones>
+			<patron>^(34|37)\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="57">
+		<!-- BIG PASS -->
+		<patrones>
+			<patron>^606076</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="58">
+		<!-- SODEXO  -->
+		<patrones>
+			<patron>^636215</patron>
+		</patrones>
+	</mensaje>
+</mensajes>
